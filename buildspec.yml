@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  build:
+    commands:
+      - echo "CI Build Start"
+      - ls -al
+
+artifacts:
+  files:
+    - '**/*'
